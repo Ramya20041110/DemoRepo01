@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>My First AWS Web Page</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #f2f2f2;
+
+            text-align: center;
+
+            margin-top: 100px;
+
+        }
+
+
+
+        .container {
+
+            background: white;
+
+            width: 500px;
+
+            margin: auto;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow: 0px 0px 10px gray;
+
+        }
+
+
+
+        h1 {
+
+            color: #0078D7;
+
+        }
+
+
+
+        p {
+
+            font-size: 18px;
+
+        }
+
+
+
+        button {
+
+            padding: 10px 20px;
+
+            background: green;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+        }
+
+
+
+        button:hover {
+
+            background: darkgreen;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+<div class="container">
+
+    <h1>Welcome to AWS EC2</h1>
+
+    <p>This is my first web page hosted on an EC2 instance.</p>
+
+
+
+    <button onclick="showMessage()">Click Me</button>
+
+
+
+    <p id="demo"></p>
+
+</div>
+
+
+
+<script>
+
+function showMessage() {
+
+    document.getElementById("demo").innerHTML =
+
+        "Hello! Your website is running successfully on AWS EC2.";
+
+}
+
+</script>
+
+
+
+</body>
+
+</html>
