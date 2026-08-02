@@ -22,7 +22,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh '''
-                sudo cp index.html /var/www/html/
+                sudo cp hostpage.html /var/www/html/
                 '''
             }
         }
