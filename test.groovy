@@ -17,4 +17,15 @@ pipeline {
             }
         }
     }
+    post{
+        always{
+            echo "Implemented code"
+        }
+        success{
+            echo "Code Successfully implemented"
+        }
+        failure{
+            echo "Failed test"
+        }
+    }
 }
