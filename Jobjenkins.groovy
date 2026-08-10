@@ -8,7 +8,7 @@ pipeline {
 
             }
         }
-        stage('Run monitor'){
+        stage('Runmonitor'){
             steps{
                 sh 'chmod +x Health-Monitor.sh'
                 sh './Health-Monitor.sh'
