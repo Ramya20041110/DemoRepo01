@@ -23,6 +23,6 @@ echo "$DISK"
 if [ "$CPU_USAGE" -gt 70 ]; then
     echo "WARNING: CPU usage is above 70%"
 else
-    echo "CPU usage is normal"
+    echo "CPU usage is normal "
 fi
 
